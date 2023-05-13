@@ -1,3 +1,4 @@
+from typing import Any, Dict
 from App.models import Candidate
 from django.views.generic import ListView,CreateView,UpdateView,DeleteView
 from django.urls import reverse_lazy
